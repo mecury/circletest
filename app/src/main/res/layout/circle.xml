@@ -1,0 +1,29 @@
+<com.mecury.circlelibrary.CircleBackground xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cir="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/circle"
+    android:layout_centerInParent="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    cir:ballColor="#ffffff"
+    cir:ballRunningDuration="3000"
+    cir:ballRadius="5dp"
+    cir:inCircleColor="#ffffff"
+    cir:inCircleRadius="81dp"
+    cir:inCircleWidth="5dp"
+    cir:outCircleColor="#ffffff"
+    cir:outCircleRadius="93dp"
+    cir:outCircleStrokeWidth="1dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:text="搜索"
+        android:textSize="30sp" />
+
+</com.mecury.circlelibrary.CircleBackground>
+

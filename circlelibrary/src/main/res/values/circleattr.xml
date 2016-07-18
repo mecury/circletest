@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="CircleBackground">
+
+        <attr name="outCircleColor" format="color"/>
+        <attr name="outCircleRadius" format="dimension"/>
+        <attr name="outCircleStrokeWidth" format="dimension"/>
+
+        <attr name="inCircleColor" format="color"/>
+        <attr name="inCircleRadius" format="dimension"/>
+        <attr name="inCircleWidth" format="dimension"/>
+
+        <attr name="ballColor" format="color"/>
+        <attr name="ballRunningDuration" format="integer"/>
+        <attr name="ballRadius" format="dimension"/>
+
+    </declare-styleable>
+</resources>
